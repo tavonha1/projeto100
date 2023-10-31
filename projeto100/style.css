@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(rgba(0, 107, 214, 0.9), rgba(0, 86, 172, 0.9)), url(https://i.imgur.com/yvyiNq3.png) center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header h2 {
+    font-size: 28px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+a {
+    color: #005bae;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0048a8;
+}
+
+.button {
+    background-color: #ff6f00;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #ff5800;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+#why-ebook {
+    background: linear-gradient(rgba(255, 115, 0, 0.9), rgba(255, 90, 0, 0.9)), url(https://i.imgur.com/GRA5UjE.jpg) center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+#why-ebook h2 {
+    font-size: 36px;
+    color: #fff;
+}
+
+#ebook-contents ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#ebook-contents li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#ebook-contents li:before {
+    content: "\2022";
+    color: #ff6f00;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
