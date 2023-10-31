@@ -26,10 +26,4 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para fazer um 
 
 Este projeto foi desenvolvido por [Gustavo Damasceno].
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter detalhes.
-
-Agradecemos por visitar o Guia de Sucesso na Academia!
-
 ![Footer Image](https://i.imgur.com/GRA5UjE.jpg)
